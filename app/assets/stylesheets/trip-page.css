@@ -1,0 +1,132 @@
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "header header"
+        "main nav"
+        "main footer";
+    gap: 10px;
+    background-color: #1c4623 !important;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-weight: 400;
+}
+
+.branding {
+    border: 20px #dfc38d double;
+    padding: 0px 0px -5px 0px;
+}
+
+    .branding img {
+        height: 300px;
+        width: 100%;
+        object-fit: fill;
+    }
+
+
+main {
+    grid-area:main;
+}
+
+header {
+    grid-area: header;
+}
+
+.content {
+    font-size: 20px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    line-height: 2;
+    border: 20px #4b2f0c double;
+    background-color: #dfc38d;
+    height: 96%;
+    color: #282522;
+    padding: 10px;
+}
+
+nav {
+    grid-area: nav;
+    font-size: 25px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    line-height: 2;
+    border: 20px #4b2f0c double;
+    background-color: #dfc38d;
+    height: 15%;
+    color: black;
+}
+
+.lodge {
+    font-size: 20px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    line-height: 2;
+    border: 20px #4b2f0c double;
+    background-color: #dfc38d;
+    height: 90%;
+    color: black;
+    padding: 10px;
+}
+
+.destination {
+    font-size: 5px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    line-height: 2;
+    border: 20px #4b2f0c double;
+    background-color: #dfc38d;
+    height: 90%;
+    color: black;
+    padding: 10px;
+}
+
+
+table{
+    border: 20px #4b2f0c double;
+    border-collapse: collapse;
+    height: 8%;
+    width: 77%;
+    margin: 25px;
+    background-color: #dfc38d;
+    font-size:15px;
+}
+
+a:link {
+    color: #faf4f4;
+}
+
+a:visited {
+    color: #faf4f4;
+}
+
+h1 {
+    color: black;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 40px;
+}
+
+h2 {
+    color: black;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 35px;
+}
+
+h3 {
+    color: black;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 35px;
+}
+
+
+footer {
+    grid-area: footer;
+    font-family: Helvetica, Arial, Sans-Serif;
+    background-color: #dfc38d;
+    line-height: 2;
+    height: 12%;
+    border: 20px #4b2f0c double;
+    color: #4b2f0c;
+    font-size: 25px;
+}
+
+
+p strong {
+    font-size:30px;
+    color:black;
+}
+

@@ -1,0 +1,84 @@
+
+body {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-template-areas:
+        "header nav"
+        "main main"
+        "main main";
+    gap: 10px;
+    background-color: #1c4623 !important;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.branding {
+    border: 20px #dfc38d solid;
+    padding: 0px 0px -5px 0px;
+}
+    .branding img {
+        height: 300px;
+        width: 100%;
+        object-fit: fill;
+    }
+
+
+
+h1 {
+    color: #faf4f4;
+    font-family: Georgia, serif;
+    font-size: 50px;
+}
+
+h2 {
+    color: #faf4f4;
+    font-family: Georgia, serif;
+    font-size: 30px;
+}
+
+nav {
+    grid-area: nav;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    border: 10px #dfc38d solid;
+    background-color: #284242;
+    line-height: 3;
+    height: 80%;
+}
+
+#trips div {
+    border: 10px #dfc38d solid;
+    padding: 10px;
+}
+
+
+p {
+    flex: 1;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+}
+
+
+
+footer {
+    font-size: 20px;
+    font-family: Georgia, serif;
+    border: 10px #dfc38d solid;
+    height: 100%;
+    background-color: #284242;
+}
+
+a:link {
+    color: #faf4f4;
+}
+
+a:visited {
+    color: #faf4f4;
+}

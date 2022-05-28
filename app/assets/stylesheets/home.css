@@ -1,0 +1,77 @@
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-areas:
+        "header header header"
+        "nav main main"
+        "footer main main";
+    gap: 10px;
+    background-color: #1c4623 !important;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-weight: 400;
+}
+
+
+header{
+
+    grid-area:header;
+}
+
+main {
+
+    grid-area:main;
+}
+
+
+nav {
+    grid-area: nav;
+    font-size: 20px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    line-height: 2;
+    border: 20px #faf4f4 double;
+    background-color: #dfc38d;
+    height: 70%;
+    color: #4b2f0c;
+}
+
+a:link {
+    color: #4b2f0c;
+}
+a:visited {
+    color: #4b2f0c;
+}
+
+.branding {
+    border: 20px #faf4f4 double;
+    padding: 0px 0px -5px 0px;
+}
+
+.branding img {
+
+    height:300px;
+    width:100%;
+    object-fit:fill;
+    
+}
+
+#mission-statement {
+    margin: auto;
+    color: #4b2f0c;
+    font-size: 20px;
+    background-color: #dfc38d;
+    border: 20px #faf4f4 double;
+    padding: 20px 20px;
+}
+
+
+
+footer {
+    grid-area: footer;
+    font-family: Helvetica, Arial, Sans-Serif;
+    background-color: #dfc38d;
+    line-height: 2;
+    height: 60%;
+    border: 20px #faf4f4 double;
+    color: #4b2f0c;
+}
